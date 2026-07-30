@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets (ignore in any folder)
+**/household_power_consumption.txt
+
+# Generated prediction files (ignore in any folder)
+**/predictions.csv
+
+# Optional: ignore all CSVs in results
+results/*.csv
